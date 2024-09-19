@@ -1,0 +1,11 @@
+#+Title: Plataforma dos AIMAs
+* Objetivo
+Criar uma plataforma que permita disponibilizar as análises realizadas com os dados coletados pelos AIMAs e outros dados relacionados (meteorológicos e hidrológicos) disponibilizados por outras instituições.
+* Etapas
+** Dados Hidrológicos da ANA
++ Objetivo: Criar uma aba na plataforma que permita produzir gráficos das estações meteorológicas selecionadas.
++ Plano:
+  1. Baixar os dados de todas as estações
+  2. Transformar os dados para que sejam plotados
+  3. Criar o layout para interação do usuário com os gráficos
+
