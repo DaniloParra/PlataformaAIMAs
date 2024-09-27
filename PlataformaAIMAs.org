@@ -6,6 +6,23 @@ Criar uma plataforma que permita disponibilizar as análises realizadas com os d
 + Objetivo: Criar uma aba na plataforma que permita produzir gráficos das estações meteorológicas selecionadas.
 + Plano:
   1. Baixar os dados de todas as estações
-  2. Transformar os dados para que sejam plotados
-  3. Criar o layout para interação do usuário com os gráficos
+  2. Criar um banco de dados que armazene os dados
+     * Criar uma tabela com índice que correlacione as estações da ANA com os nomes de cada local (deve ser geográfica)
+       | ID | ID_Local | Nome_local     | Rio    | CodEstacao | TipoEstacao |
+       |----+----------+----------------+--------+------------+-------------|
+       |    |          | Taracuá        | Tiquié |   14280000 | F           |
+       |    |          | Pari Cachoeira | Tiquié |    8069003 | P           |
+       |    |          | Pari Cachoeira | Tiquié |   14300000 | F           |
+       |    |          | Pirarara Poço  | Tiquié |    8069004 | P           |
+       |    |          | Cunuri         | Tiquié |   14310000 | F           |
+       |    |          | Tunuí          | Içana  |    8168000 | P           |
+       |    |          | São Joaquim    | Içana  |   14215000 | F           |
+       |    |          | Assunção       | Içana  |   14230000 | F           |
+       |    |          | Assunção       | Içana  |    8167000 | P           |
+       |    |          | Louro Poço     | Içana  |   14220000 | F           |
+       |    |          | Santana        | Içana  |    8167003 | P           |
+       |    |          |                |        |            |             |
+       
+  3. Transformar os dados para que sejam plotados
+  4. Criar o layout para interação do usuário com os gráficos
 
